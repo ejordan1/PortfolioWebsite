@@ -9,12 +9,9 @@ import GetSeasonDataArr from "./Data";
 import Seasons from "./Seasons";
 import { createContext, useState } from 'react';
 
- export const PageContext = createContext(undefined);
 
 function App() {
-  //const [currentPage, setCurrentPage] = useState(true);
   return (
-    //<PageContext.Provider value={currentPage}>
     <div>
         <Header />
         <Switch>
@@ -23,7 +20,6 @@ function App() {
           <Route exact path="/schedule" component={Schedule} />
         </Switch>
     </div>
-    //</PageContext.Provider>
   );
 }
 

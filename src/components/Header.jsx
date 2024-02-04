@@ -11,7 +11,13 @@ function Header(){
 
   const navStyle = () => {
     return {
-      textAlign: "center",
+      textAlign: "center"
+    };
+  };
+
+  const containerStyle = () => {
+    return {
+      marginBottom: "50px",
     };
   };
 
@@ -23,10 +29,10 @@ function Header(){
 
     
   return (
-    <div>
+    <div style={containerStyle()}>
       <h1 style={titleStyle()}>Emerson Jordan's Software Projects</h1>
       <div style={navStyle()}>
-      <Link to="/">Home</Link> | <Link to="/schedule">Web Projects</Link> | <Link to="/seasonslist">Unity Projects</Link>
+      <Link to="/">Home</Link> | <Link to="/schedule">About Me</Link>
       </div>
       
     </div>

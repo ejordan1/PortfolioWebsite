@@ -1,16 +1,18 @@
 import React from 'react';
 import Bio from './Bio';
 import FeaturedProject from './FeaturedProject';
+import ProjectsList from './Projects';
 
 
 function HomePage(){
   var getStyle = () => {
     return {
-      backgroundColor: "grey",
+      backgroundColor: "white",
     };
   };
 
   return (<div style = {getStyle()}>
+    <ProjectsList></ProjectsList>
       <Bio></Bio>
       <FeaturedProject></FeaturedProject>
   </div>
@@ -23,4 +25,4 @@ export default HomePage;
 
 
 //days at location
-//produce/season
+//produce/seaso
