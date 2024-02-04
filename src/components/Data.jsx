@@ -1,5 +1,8 @@
 import React from 'react';
 
+const Title1 = "Emerson Jordan's Software Projects"
+const Title2 = "About me"
+
 var Items = {
   apple : {
     name : 'Apple',
