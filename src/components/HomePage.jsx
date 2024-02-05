@@ -13,8 +13,6 @@ function HomePage(){
 
   return (<div style = {getStyle()}>
     <ProjectsList></ProjectsList>
-      <Bio></Bio>
-      <FeaturedProject></FeaturedProject>
   </div>
   )
 

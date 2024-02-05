@@ -10,6 +10,9 @@ function ProjectsList() {
       flexWrap: "wrap",
       justifyContent: "center",
       gap: "30px 20px",
+      maxWidth: "1000px",
+      marginLeft: "auto",
+      marginRight: "auto"
     };
   };
 
@@ -25,7 +28,9 @@ function ProjectsList() {
           <Project
             name={project.name}
             description={project.description}
-            technologies={project.technologies}
+            coolImplementation={project.coolImplementation}
+            imgurl={project.imgurl}
+            key={index}
           ></Project>
         </div>
       ))}

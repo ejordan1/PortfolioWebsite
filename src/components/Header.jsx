@@ -32,7 +32,7 @@ function Header(){
     <div style={containerStyle()}>
       <h1 style={titleStyle()}>Emerson Jordan's Software Projects</h1>
       <div style={navStyle()}>
-      <Link to="/">Home</Link> | <Link to="/schedule">About Me</Link>
+      <Link to="/">Home</Link> | <Link to="/about">About Me</Link>
       </div>
       
     </div>

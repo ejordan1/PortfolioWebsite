@@ -8,6 +8,7 @@ import PropTypes from "prop-types";
 import GetSeasonDataArr from "./Data";
 import Seasons from "./Seasons";
 import { createContext, useState } from 'react';
+import AboutMe from "./AboutMe";
 
 
 function App() {
@@ -16,8 +17,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/seasonslist" component={SeasonsList} />
-          <Route exact path="/schedule" component={Schedule} />
+          <Route exact path="/about" component={AboutMe} />
         </Switch>
     </div>
   );
